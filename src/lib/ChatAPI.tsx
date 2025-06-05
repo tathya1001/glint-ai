@@ -1,5 +1,5 @@
 export async function createNewChat(token: string) {
-  const res = await fetch("http://localhost:8000/new-chat", {
+  const res = await fetch("https://glint-backend-aap0.onrender.com/new-chat", {
     method: "POST",
     headers: {
       Authorization: `Bearer ${token}`,
