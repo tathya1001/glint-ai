@@ -5,7 +5,7 @@ import {
   signInWithEmailAndPassword,
   createUserWithEmailAndPassword,
 } from "firebase/auth";
-import { auth } from "@/lib/firebase"; // ✅ Use this one
+import { auth } from "@/lib/firebase";
 
 type Props = {
   onLoginSuccess: (user: any, token: string) => void;
